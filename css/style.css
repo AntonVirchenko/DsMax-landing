@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 14px;
+}
+
+.dsmax-main-content {
+    background-image: url('../images/bg-main.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.dsmax-header-fixed-top {
+    position: fixed !important;
+    z-index: 99999 !important;
+    width: 100% !important;
+    top: 0 !important;
+    background-color: white !important;
+}
+
+.dsmax-header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmax-main-logo {
+    margin-right: 100px !important;
+}
+
+.dsmax-navbar li {
+    margin-left: 25px !important;
+}
+
+.nav-item a:hover {
+    color: #bc003b;
+    text-decoration: none;
+    border-bottom: 2px solid #bc003b;
+}
+
+.nav-item a {
+    color: #444444;
+}
+
+.dsmax-main-content-desc {
+    margin-top: 50px;
+}
+
+
+.dsmax-main-content-text {
+    color: white;
+}
+
+.dsmax-main-content-desc-form {
+    margin: 50px 0;
+    color: black;
+}
+
+.dsmax-main-content-desc-form form {
+    background-color: white;
+    padding: 34px 25px;
+}
+
+.dsmax-main-content-desc-form button,
+.dsmax-zayavka button{
+    background-color: #bc003b;
+    border: none;
+    color: white;
+    padding: 3px 68px;
+}
+
+.dsmax-modal-button button{
+	background-color: #bc003b;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.dsmax-border{
+	border-left: 2px solid white;
+}
+
+.dsmax-border h1, .dsmax-border span{
+	margin-left: 10px;
+}
+
+.dsmax-modal-button{
+	width: 100%;
+}
+
+.dsmax-advantages span{
+	line-height: 1.3;
+}
+
+.dsmax-text-size{
+	font-size: 18px;
+}
+
+.dsmax-main-content-desc-form input,.modal-body input{
+	border-bottom: 1px solid #bc003b;
+	border-top: 1px solid #bc003b;
+	border-right: none;
+	border-left: 1px solid #bc003b;
+}
+
+.dsmax-active-1 a{
+	color: #bc003b !important;
+	font-weight: bold !important;
+}
+
+.dsmax-main-content-desc-form span{
+	line-height: 0.7;
+}
+
+.dsmax-footer-button button{
+    background-color: #bc003b;
+    border: none;
+    color: white;
+    padding: 3px 30px;
+}
+
+input[placeholder] {
+    padding: 3px 10px;
+}
+
+.dsmax-main-content-img img{
+	width: 550px;
+	height: 530px;
+}
+
+.dsmax-main-content-desc-form-icon {
+    background-color: #bc003b;
+    padding: 10px;
+}
+
+.dsmax-main-content-desc-form-icon img {
+    width: 15px;
+    height: 17px;
+}
+
+.dsmax-price {
+    padding: 44px 0;
+}
+
+.dsmax-price h2 {
+    color: #bc003b;
+    font-size: 30px;
+}
+
+.dsmax-active {
+    font-family: Montserrat-SemiBold !important;
+    background-color: #bc003b !important;
+}
+
+.dsmax-price {
+    margin-top: 36px;
+}
+
+
+.dsmax-price-product-desc {
+    margin-top: 56px;
+    height: 650px;
+}
+
+.dsmax-price-name-text {
+    color: white;
+    background-color: #1c1c1c;
+    padding: 32px 100px 32px 30px;
+    border-bottom: 2px solid #bc003b;
+    cursor: pointer;
+}
+
+.dsmax-price-product {
+    margin-left: 58px;
+}
+
+.dsmax-price-product img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 75px;
+}
+
+.dsmax-price-product-char-text {
+    border: 1px solid black;
+    padding: 0 30px;
+    width: 310px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.dsmax-price-product-char {
+    margin-left: 60px;
+}
+
+.dsmax-price-product-char-text:nth-child(even) {
+    background-color: #bdbdbd;
+}
+
+.dsmax-text-color {
+    color: #bc003b;
+}
+
+.dsmax-price-text-attention {
+    margin-top: 22px;
+    border: 1px solid #bc003b;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dsmax-price-product-char-button button {
+    color: white;
+    background-color: #bc003b;
+    padding: 5px 35px;
+    border: none;
+    margin-top: 12px;
+}
+
+.dsmax-use-button button,
+.dsmax-use-button-2 button {
+    color: white;
+    background-color: #bc003b;
+    padding: 5px 35px;
+    border: none;
+}
+
+.dsmax-use-button-2 {
+    margin-top: 3rem;
+}
+
+.dsmax-zayavka {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.dsmax-zayavka h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.dsmax-advantages h2,
+.dsmax-why h2,
+.dsmax-buy h2,
+.dsmax-use h2 {
+    font-size: 30px;
+}
+
+.dsmax-advantages {
+    padding: 60px 0;
+}
+
+.dsmax-advantages img {
+    height: 35px;
+    width: 35px;
+    margin-right: 32px;
+}
+
+.dsmax-why {
+    padding: 80px 0;
+    background-image: url("../images/bg-why.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+button:hover{
+    background-color: #990232;
+}
+
+
+.dsmax-why img {
+    width: 100%;
+    height: 100%;
+}
+
+.dsmax-buy {
+    padding: 70px 0;
+}
+
+.dsmax-buy img {
+    margin-left: 136px;
+}
+
+.dsmax-use {
+    padding: 30px 0;
+    background-image: url("../images/bg-use.png");
+    font-size: 16px;
+}
+
+.dsmax-use-desc {
+    background-color: white;
+    padding: 24px 24px;
+}
+
+.dsmax-use-desc {
+    margin-left: 20px;
+}
+
+
+
+.dsmax-use-desc img {
+    height: 218px;
+    width: 210px;
+}
+
+.dsmax-footer {
+    background-color: #1c1c1c;
+    padding: 15px 0;
+}
+
+.dsmax-footer-button span {
+    font-size: 24px;
+}
+
+#exampleModalThankyou span{
+	font-size: 15px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #bc003b;
+}
+
+footer img {
+    width: 15px;
+    height: 19px;
+}
+
+@media(max-width: 990px) {
+    .dsmax-main-content-text {
+        text-align: center;
+    }
+
+    .dsmax-header {
+        display: block !important;
+    }
+
+    .dsmax-main-content-img img {
+        width: 450px;
+        height: 370px;
+    }
+
+    .dsmax-main-content-text h1 {
+        font-size: 30px;
+    }
+
+    .dsmax-price-product-desc {
+        height: 100%;
+    }
+
+    .dsmax-price-name {
+        width: 100%;
+    }
+
+    .dsmax-price-product-char {
+        color: black;
+    }
+
+    .dsmax-price-product-char-text {
+        font-size: 13px;
+    }
+
+    .dsmax-price-product {
+        margin-top: 20px;
+    }
+
+    .dsmax-price-product {
+        margin-left: 0 !important;
+        border-bottom: 2px solid #bc003b;
+    }
+
+    .dsmax-price-text-attention {
+        display: flex;
+        margin-left: 0 !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .dsmax-buy img {
+        margin-left: 0 !important;
+    }
+
+    .dsmax-use-desc {
+        margin-left: 0 !important;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 670px) {
+    .dsmax-zayavka h2 {
+        font-size: 20px;
+    }
+
+    .dsmax-price-product-desc,
+    .dsmax-price-product-char-text {
+        width: 100%;
+    }
+}
+
+@media(max-width: 520px) {
+    .dsmax-price-product-char-text {
+        font-size: 10px;
+    }
+
+    .dsmax-price-product img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .dsmax-price-product-char-button button {
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    .dsmax-price-product-char-text {
+        padding: 0 15px;
+    }
+
+    .dsmax-price h2,
+    .dsmax-advantages h2,
+    .dsmax-why h2,
+    .dsmax-buy h2,
+    .dsmax-use h2,
+    .dsmax-footer h3,
+    .dsmax-zayavka h2 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    .dsmax-use-button-2 {
+        margin-top: 0;
+    }
+
+    .dsmax-use-desc img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .dsmax-main-content-img img {
+        width: 350px;
+        height: 270px;
+    }
+
+    .dsmax-price-product-char-text {
+        padding: 0 8px;
+    }
+
+    .dsmax-buy img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dsmax-main-logo img{
+    	width: 110px;
+    	height: 50px;
+    }
+}
+
+@media(max-width: 480px) {
+	.dsmax-main-content-img img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .dsmax-price-product-char{
+    	margin-left: 20px;
+    }
+
+    .dsmax-price-product img{
+    	width: 110px;
+    	height: 100px;
+    }
+
+    .dsmax-price-product-char-button button{
+    	margin-top: 7px;
+    }
+}
+
+@media(max-width: 370px) {
+	.dsmax-price-product-char-text{
+		font-size: 9px;
+	}
+
+	.dsmax-price-text-attention{
+		font-size: 14px;
+	}
+
+	.dsmax-advantages {
+		font-size: 14px;
+	}
+
+	.dsmax-price h2,
+    .dsmax-advantages h2,
+    .dsmax-why h2,
+    .dsmax-buy h2,
+    .dsmax-use h2,
+    .dsmax-footer h3,
+    .dsmax-zayavka h2 {
+        font-size: 17px;
+    }
+
+    .dsmax-main-content-desc-form form{
+    	padding: 25px 10px;
+    }
+
+    .dsmax-buy{
+    	font-size: 15px;
+    }
+}
+
+@media(max-width: 340px){
+	.dsmax-main-content-desc-form button{
+		width: 100%;
+	}
+
+	.dsmax-main-content-desc-form{
+		font-size: 16px;
+	}
+}
